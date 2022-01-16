@@ -16,7 +16,7 @@ a:active {
 
 .titulosBlancos {
   /*Características de los títulos en blanco*/
-  font-size: calc(12px + 2vw); /*Responsive text*/
+  font-size: calc(10px); /*Responsive text*/
   color: white;
   text-shadow: 2px 2px 2px black;
   text-decoration: none; /*Quitamos cualquier tipo de decoración*/
@@ -28,7 +28,7 @@ a:active {
   color: white;
   text-shadow: 3px 3px 3px black; /*Sombra al texto*/
   text-indent: 25px; /*Hacer que aparezca más a la derecha la primera línea de los textos*/
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(1em);
   text-align: justify;
   line-height: 1.8; /*Altura entre líneas*/
 }
@@ -37,7 +37,7 @@ a:active {
 .footerBlanco {
   color: white;
   text-indent: 25px;
-  font-size: calc(4px + 1.5vw);
+  font-size: calc(1em);
   font-style: italic;
   font-weight: bold; /*Hacer más grueso el texto*/
 }
@@ -45,7 +45,7 @@ a:active {
 .footerNegro {
   color: black;
   text-indent: 25px;
-  font-size: calc(4px + 1.5vw);
+  font-size: calc(1em);
   font-style: italic;
   font-weight: 400;
 }
@@ -55,11 +55,11 @@ a:active {
   color: white;
   text-decoration: underline;
   text-shadow: 3px 3px 3px black;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 #listaPequeña {
-  font-size: 20px;
+  font-size: 1em;
   color: white;
   text-align: justify;
   text-decoration: overline; /* STORY 2.- FORMATO - Apartado F */
@@ -73,7 +73,7 @@ a:active {
 /*TEXTOS DE COLOR NEGRO*/
 .titulosNegros {
   /*font-size: 25px;*/
-  font-size: 5vw;
+  font-size: 1em;
   color: black;
   text-decoration: none;
   font-family: "Space Mono", monospace; /* STORY 2.- FORMATO - Apartado F */
@@ -82,7 +82,7 @@ a:active {
 .textosNegros {
   color: black;
   /*text-shadow: 1px 1px 2px black;*/
-  text-indent: 15px;
+  text-indent: 1em;
   font-size: calc(12px + 1.5vw);
   text-align: justify;
   font-family: "Trirong", sans-serif;
@@ -90,53 +90,51 @@ a:active {
 }
 
 .aumentarTitulosContacto {
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(1em);
   font-weight: bold;
 }
 
 .textoFormulario {
-  font-size: 18px;
+  font-size: 1em;
   font-weight: bold;
 }
 
 .textoSinSombra {
-  font-size: 3vw;
+  font-size: 1em;
   text-indent: 10px;
 }
 
-#inicio {
-  font-size: 2.5vw;
-  text-align: justify;
-  font-style: italic;
-  text-indent: 15px;
-  font-family: "Fauna One", serif; /*Font Pairing - STORY 7: Apartado 10 */
-}
-
 #sobreNosotros {
-  font-size: 2.3vw;
+  font-size: 1em;
   text-align: center;
   color: white;
 }
 
 .textoBlancoCentrado {
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 1em;
   color: white;
   margin-left: 10%; /*Story3*/
   font-style: bold;
 }
 
-.Sofia {
-  /*Google Font*/
-  font-family: "Sofia", sans-serif; /* STORY 2.- FUENTES - Apartado D */ /*FUENTE DE GOOGLE*/
-  font-size: calc(12px + 1.5vw);
-}
-
 .uppercase {
   /*MAYÚSCULAS*/
-  font-size: 3vw;
+  font-size: 1em;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 8px;
   font-family: Cinzel, serif; /*Font Pairing - STORY 7: Apartado 10 */
+}
+.textitoImagen {
+  /*El texto que aparece encima de sobreponer cuando ocurre*/
+  white-space: nowrap; /*Crea todo el texto en una linea, da igual el sitio donde este*/
+  color: black; /*Esto cambia el color de la letra*/
+  font-size: 1.3em;
+  position: absolute;
+  overflow: hidden;
+  top: 50%; /*Distancia de arriba*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /*Que aparezca con las animaciones*/
 }

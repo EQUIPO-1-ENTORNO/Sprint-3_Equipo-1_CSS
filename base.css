@@ -22,7 +22,7 @@ nav li li {
 }
 h1 {
   font-family: "Helvetica", "serif"; /* STORY 2.- FUENTES - Apartado A */ /* STORY 2.- FUENTES - Apartado C */
-  font-size: 10px; /* STORY 2.- FUENTES - Apartado B */
+  font-size: 1.2em; /* STORY 2.- FUENTES - Apartado B */
   text-align: center; /* STORY 2.- ALINEACIÓN - Apartado E */
   text-decoration: underline; /* STORY 2.- FORMATO - Apartado F */ /*SUBRAYADO*/
   text-shadow: 1px 2px 3px black; /* STORY 2.- FORMATO - Apartado G */
@@ -32,7 +32,7 @@ h1 {
 
 body {
   font-family: Garamond, serif; /* STORY 2.- FUENTES - Apartado A */ /* STORY 2.- FUENTES - Apartado C */
-  font-size: 15px; /* STORY 2.- FUENTES - Apartado B */
+  font-size: 1.2em; /* STORY 2.- FUENTES - Apartado B */
   text-align: justify; /* STORY 2.- ALINEACIÓN - Apartado E */
   margin: max-width 15%; /*Story3*/
 }

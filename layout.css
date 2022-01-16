@@ -1,0 +1,35 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columna1 {
+  flex: 30%;
+}
+
+.columna2 {
+  flex: 50%;
+}
+.columna3 {
+  flex: 20%;
+}
+
+/*Columnas STORY 7*/
+/*EL .grid crea una estructura de columnas o filas y se van añadiendo con fr*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*Query para representar y adaptar columnas y contenido a dispositivos moviles*/
+@media (max-width: 415px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.columnas3 {
+  column-count: 3;
+  column-rule: 1px solid #bbb;
+  column-width: 140px;
+}
