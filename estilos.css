@@ -204,7 +204,7 @@ nav li:hover > ul > li {
   /*El texto que aparece encima de sobreponer cuando ocurre*/
   white-space: nowrap; /*Crea todo el texto en una linea, da igual el sitio donde este*/
   color: black; /*Esto cambia el color de la letra*/
-  font-size: 1.3em;
+  font-size: 1em;
   position: absolute;
   overflow: hidden;
   top: 50%; /*Distancia de arriba*/
@@ -231,7 +231,7 @@ h1 {
 
 body {
   font-family: Garamond, serif; /* STORY 2.- FUENTES - Apartado A */ /* STORY 2.- FUENTES - Apartado C */
-  font-size: 1.3em; /* STORY 2.- FUENTES - Apartado B */
+  font-size: 1em; /* STORY 2.- FUENTES - Apartado B */
   text-align: justify; /* STORY 2.- ALINEACIÓN - Apartado E */
   margin: max-width 15%; /*Story3*/
 }
@@ -273,7 +273,7 @@ a:active {
 
 .titulosBlancos {
   /*Características de los títulos en blanco*/
-  font-size: calc(1.3em + 2vw); /*Responsive text*/
+  font-size: 1.3em; /*Responsive text*/
   color: white;
   text-shadow: 2px 2px 2px black;
   text-decoration: none; /*Quitamos cualquier tipo de decoración*/
@@ -294,7 +294,7 @@ a:active {
 .footerBlanco {
   color: white;
   text-indent: 25px;
-  font-size: calc(1em);
+  font-size: 1em;
   font-style: italic;
   font-weight: bold; /*Hacer más grueso el texto*/
 }
@@ -339,8 +339,8 @@ a:active {
 .textosNegros {
   color: black;
   /*text-shadow: 1px 1px 2px black;*/
-  text-indent: 1.3em;
-  font-size: calc(12px + 1.5vw);
+  text-indent: 1em;
+  font-size: 1em;
   text-align: justify;
   font-family: "Trirong", sans-serif;
   line-height: 1.8;
@@ -354,7 +354,7 @@ mark {
 }
 
 .aumentarTitulosContacto {
-  font-size: calc(1.3em + 1.5vw);
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -364,7 +364,7 @@ mark {
 }
 
 .textoSinSombra {
-  font-size: 3vw;
+  font-size: 1em;
   text-indent: 10px;
 }
 
@@ -393,7 +393,7 @@ mark {
 .Sofia {
   /*Google Font*/
   font-family: "Sofia", sans-serif; /* STORY 2.- FUENTES - Apartado D */ /*FUENTE DE GOOGLE*/
-  font-size: calc(1.3em);
+  font-size: 1.3em;
 }
 
 .uppercase {
@@ -519,7 +519,7 @@ th {
   padding-left: 2%;
   height: 2rem;
   font-family: Arial, sans-serif;
-  font-size: calc(1em);
+  font-size: 1em;
 }
 /* clase que determina el estilo de los inputs */
 .form_input {
@@ -527,7 +527,7 @@ th {
   height: calc(2.5em - 1.1rem);
   border: 0px;
   border-color: lightgreen;
-  font-size: 1.1rem;
+  font-size: 1.3em;
   background: rgba(255, 255, 255, 0.7);
   /* es necesario para mostrar los iconos del placeholder */
   font-family: "FontAwesome", Arial;
@@ -540,7 +540,7 @@ th {
   width: 100%;
   /* quitamos el borde para luego modificarlo a nuestro gusto */
   border: none;
-  font-size: 1.1rem;
+  font-size: 1.3em;
   font-family: Arial, sans-serif;
   background: rgba(255, 255, 255, 0.7);
 }
@@ -549,18 +549,18 @@ th {
 .form_select {
   height: 2.1em;
   font-family: Arial, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3em;
 }
 
 /* definimos estilos para el radio buton */
 .form_radio {
-  font-size: calc(1em);
+  font-size: 1em;
   font-family: Arial, sans-serif;
   color: #707070;
 }
 
 .form_margin_botton {
-  margin-bottom: 1rem; /*Story3*/
+  margin-bottom: 1em; /*Story3*/
 }
 
 /* definismo estilos de los botones */
@@ -568,7 +568,7 @@ th {
   width: 100%;
   height: 1.6em;
   font-family: Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1em;
   margin-bottom: 0.2rem; /*Story3*/
   /* quitamos el borde por defecto, luego lo modificamos */
   border: 0px;

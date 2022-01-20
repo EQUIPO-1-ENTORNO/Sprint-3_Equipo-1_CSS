@@ -17,3 +17,14 @@
   left: 100%;
   top: 0;
 }
+
+.navbar-nav {
+  position: relative;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  left: 42%;
+}
